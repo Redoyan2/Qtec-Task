@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(246, 246, 246)
+}
+
+
+.head-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.herder-1 {
+    font-size: 400%;
+    font-weight: 200;
+}
+
+.herder-2 {
+    font-size: 400%;
+    font-weight: 400;
+}
+.head-details{
+font-size: 28px;
+margin-top: 20px;
+font-weight: 200;
+
+}
