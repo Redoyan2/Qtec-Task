@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300;1,500&display=swap');
 
+/*Desktop */
 * {
     margin: 0;
     padding: 0;
@@ -42,22 +43,20 @@ body {
 }
 
 .Item-section {
-    margin: 100px 200px 100px 200px ;
-    
+    margin: 100px 200px 100px 200px;
     display: grid;
     gap: 40px;
-    
+
 }
 
 .supervisor {
     grid-column: 1;
     grid-row: 1;
-    margin:30% 0% 30% 7%;
+    margin: 30% 0% 30% 7%;
     padding: 40px 60px 7px 30px;
-    box-shadow: black;
     border-radius: 2%;
-    box-shadow: 0px 6px 0px  hsl(180, 62%, 55%) inset , 0px 0px 20px 0px rgb(177, 173, 173);
-    background-color: white;   
+    box-shadow: 0px 6px 0px hsl(180, 62%, 55%) inset, 0px 0px 20px 0px rgb(177, 173, 173);
+    background-color: white;
 }
 
 .team-builder {
@@ -65,50 +64,190 @@ body {
     grid-row: 1;
     display: grid;
     gap: 40px;
-    
+
 }
-.team-builder-1{
+
+.team-builder-1 {
     grid-column: 1;
     grid-row: 1;
-    border-radius:2%;
+    border-radius: 2%;
     margin: 0%;
     padding: 40px 60px 20px 30px;
-    box-shadow: 0px 6px 0px  hsl(0, 78%, 62%) inset , 0px 0px 20px 0px rgb(177, 173, 173);
+    box-shadow: 0px 6px 0px hsl(0, 78%, 62%) inset, 0px 0px 20px 0px rgb(177, 173, 173);
     background-color: white;
 }
-.team-builder-2{
+
+.team-builder-2 {
     grid-column: 1;
     grid-row: 2;
     border-radius: 2%;
     padding: 40px 60px 20px 30px;
-    box-shadow: 0px 6px 0px  hsl(34, 97%, 64%) inset , 0px 0px 20px 0px rgb(177, 173, 173) ;
+    box-shadow: 0px 6px 0px hsl(34, 97%, 64%) inset, 0px 0px 20px 0px rgb(177, 173, 173);
     background-color: white;
 }
 
 .calculator {
     grid-column: 3;
     grid-row: 1;
-    margin:30% 7% 30% 0%;
+    margin: 30% 7% 30% 0%;
     padding: 40px 60px 10px 30px;
-    box-shadow:0px 6px 0px  hsl(212, 86%, 64%) inset, 0px 0px 20px 0px rgb(177, 173, 173);
-   
+    box-shadow: 0px 6px 0px hsl(212, 86%, 64%) inset, 0px 0px 20px 0px rgb(177, 173, 173);
+
     border-radius: 2%;
-    background-color: white; 
+    background-color: white;
 }
 
-.images{
+.images {
     padding-top: 20%;
     text-align: right;
 }
-.Item-section p{
+
+.Item-section p {
     font-size: 20px;
     font-weight: 200;
     padding-top: 10px;
     color: #888888;
 }
-.Item-section h2{
+
+.Item-section h2 {
     font-size: 30px;
     font-weight: 600;
     color: #606d5f;
+}
+
+
+@media (max-width: 1440px) {
+
+    .herder-1 {
+        font-size: 250%;
+        
+    }
     
+    .herder-2 {
+        font-size: 250%;
+      
+    }
+    .head-details {
+        font-size: 17px;
+    }
+
+    .Item-section {
+        margin: 80px 100px 80px 100px;
+        gap: 35px;
+
+    }
+
+    .supervisor {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 35% 0% 35% 7%;
+        padding: 40px 40px 7px 30px;
+    }
+
+ 
+    .calculator {
+        grid-column: 3;
+        grid-row: 1;
+        margin: 40% 7% 40% 0%;
+        padding: 40px 30px 10px 30px;
+    }
+
+    .Item-section p {
+        font-size: 15px;
+    }
+
+    .Item-section h2 {
+        font-size:25px;
+        font-weight: 500;
+    }
+}
+
+
+/*tablet response*/
+@media (max-width: 576px) {
+    .head-section {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .herder-1 {
+        font-size: 220%;
+        margin: 0px 30px;
+    }
+
+    .herder-2 {
+        font-size: 220%;
+        margin: 0px 30px;
+    }
+
+    .head-details {
+        font-size: 20px;
+        margin: 20px 30px;
+    }
+
+    .Item-section {
+        margin: 60px 30px;
+        display: grid;
+        gap: 25px;
+    }
+
+    .supervisor {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0% 0% 0% 0%;
+        padding: 10px 10px 10px 20px;
+    }
+
+    .team-builder {
+        grid-column: 1;
+        grid-row: 2;
+        display: grid;
+        gap: 25px;
+
+    }
+
+    .team-builder-1 {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0% 0% 0% 0%;
+        padding: 10px 10px 10px 20px;
+    }
+
+    .team-builder-2 {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0% 0% 0% 0%;
+        padding: 10px 10px 10px 20px;
+    }
+
+    .calculator {
+        grid-column: 1;
+        grid-row: 3;
+        margin: 0% 0% 0% 0%;
+        padding: 10px 10px 10px 20px;
+    }
+}
+
+/*Mobile response*/
+@media (max-width: 375px) {
+    .head-section {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .herder-1 {
+        font-size: 150%;
+        margin: 0px 30px;
+    }
+
+    .herder-2 {
+        font-size: 150%;
+        margin: 0px 30px;
+    }
+
+    .head-details {
+        font-size: 15px;
+    }
+
+
 }
